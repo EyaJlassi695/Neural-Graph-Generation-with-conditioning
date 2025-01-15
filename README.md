@@ -18,15 +18,7 @@ Each textual description outlines key graph properties:
 - Maximum k-core
 - Number of communities
 
-The evaluation metric is the Mean Absolute Error (MAE):
-
-\[
-MAE = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i|
-\]
-Where:
-- \(n\): Number of properties evaluated
-- \(y_i\): Target property value
-- \(\hat{y}_i\): Generated property value
+The evaluation metric is the Mean Absolute Error (MAE).
 
 ## Model Architecture
 
